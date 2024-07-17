@@ -100,7 +100,7 @@ export function Players() {
     async function handleGroupRemove() {
         Alert.alert(
             'Remover', 
-            'Deseja remover o jogador?',
+            'Deseja remover a turma?',
             [
                 {text: 'Não', style: 'cancel'},
                 {text: 'Sim', onPress: () => groupRemove() }
